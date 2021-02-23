@@ -3,7 +3,7 @@ import getForecast from '../controllers/getForecast';
 
 function App() {
 
-  getForecast();
+  getForecast("Manchester,uk");
 
   return (
     <h1>vaporweather</h1>
