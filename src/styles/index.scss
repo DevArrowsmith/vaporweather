@@ -1,0 +1,13 @@
+html, body{
+  height: 100%;
+}
+body {
+  margin: 0;
+  background: #000000;
+  background-image: url("https://image.freepik.com/free-vector/vaporwave-laser-grid-abstract-mountains-landscape-with-sunset-background-synthwave-concept_148087-127.jpg");
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
