@@ -1,3 +1,4 @@
+import '../styles/ForecastWindow.scss'
 import React from 'react';
 
 const ForecastWindow = () => {
