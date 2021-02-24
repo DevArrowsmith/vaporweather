@@ -1,7 +1,5 @@
 import axios from 'axios';
 
-
-
 const weatherKey = process.env.REACT_APP_WEATHER_KEY;
 
 console.log(process.env);
@@ -14,7 +12,7 @@ if (!query) {
     return axios
       .get(`http://api.openweathermap.org/data/2.5/forecast?q=${query}&APPID=${weatherKey}`)
       .then(response => {
-        console.log(response);
+        return response;
       })
       .catch(error => {
         console.log(error);
