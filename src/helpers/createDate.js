@@ -24,7 +24,7 @@ const createDate = (timestamp) => {
     "December"
   ];
 
-  const datestamp = new Date(["dt"] * 1000);
+  const datestamp = new Date(timestamp);
   const day = days[datestamp.getDay()];
   const date = datestamp.getDate();
   const month = months[datestamp.getMonth()];
