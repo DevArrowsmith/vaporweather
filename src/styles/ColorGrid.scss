@@ -1,0 +1,33 @@
+.color-grid {
+  height: 100%;
+  width: 100%;
+  border: 1px white solid;
+  display: grid;
+  grid-template-columns: (calc(100% / 7)) (calc(100% / 7)) (calc(100% / 7)) (calc(100% / 7)) (calc(100% / 7)) (calc(100% / 7)) (calc(100% / 7));
+
+  p {
+    color: white;
+  }
+
+  .block1 {
+    background :#e3dd26;
+  };
+  .block2 {
+    background :#9CF6F6;
+  };
+  .block3 {
+    background :#BD2D87;
+  };
+  .block4 {
+    background :#EFA9BB;
+  };
+  .block5 {
+    background :#7A5C61;
+  };
+  .block6 {
+    background :#000000;
+  };
+  .block7 {
+    background :#FFFFFF;
+  };
+}
